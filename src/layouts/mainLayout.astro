@@ -1,0 +1,82 @@
+---
+const { title } = Astro.props;
+import "../styles/globals.css";
+---
+
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/webp" href="/favicon.webp" sizes="64x64" />
+    <link
+      rel="icon"
+      type="image/webp"
+      href="/android-chrome.webp"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      type="image/webp"
+      href="/apple-touch-icon.webp"
+      sizes="180x180"
+    />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="hymndavinci is an seasoned Web Developer specializing in Android development."
+    />
+    <meta
+      name="author"
+      content="hymndavinci />
+        <meta
+            name="
+      keywords"
+      content="hymndavinci, Rem01, Web Developer, Mobile, Kotlin, Android Studio, web development, mobile development, Android development"
+    />
+    <meta property="og:title" content="hymndavinci - Web Developer" />
+    <meta property="og:url" content="https://hymndavinci.dev/" />
+    <meta property="og:image" content="/ogp.webp" />
+    <meta
+      property="og:description"
+      content="hymndavinci is an seasoned Web Developer specializing in Android development."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="hymndavinci - Web Developer" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="canonical" href="https://hymndavinci.dev/" />
+    <title>{title}</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "dateCreated": "2024-10-20T00:00:00+07:00",
+        "mainEntity": {
+          "@type": "Person",
+          "name": "hymndavinci",
+          "description": "Web Developer",
+          "image": "https://hymndavinci.dev/furina.webp",
+          "sameAs": [
+            "https://www.youtube.com/@hymndavinci",
+            "https://www.tiktok.com/@hymndavinci",
+            "https://www.github.com/hymndavinci",
+            "https://www.t.me/hymndavinci"
+          ]
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-light-fondo-primary dark:bg-dark-fondo-primary">
+    <slot />
+    <script>
+      const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+      if (darkThemeMq.matches) {
+        document.body.classList.add("dark");
+        document.documentElement.classList.add("dark");
+      } else {
+        document.body.classList.remove("dark");
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+  </body>
+</html>

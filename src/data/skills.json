@@ -1,0 +1,78 @@
+[
+  {
+    "skillName": "Bash",
+    "skillPicture": "bash.svg"
+  },
+  {
+    "skillName": "C#",
+    "skillPicture": "csharp.svg"
+  },
+  {
+    "skillName": "JavaScript",
+    "skillPicture": "javascript.svg"
+  },
+  {
+    "skillName": "HTML",
+    "skillPicture": "html.svg"
+  },
+  {
+    "skillName": "CSS",
+    "skillPicture": "css.svg"
+  },
+  {
+    "skillName": "Bootstrap",
+    "skillPicture": "bootstrap.svg"
+  },
+  {
+    "skillName": "Git",
+    "skillPicture": "git.svg"
+  },
+  {
+    "skillName": "GitHub",
+    "skillPicture": "github.svg"
+  },
+  {
+    "skillName": "Node.js",
+    "skillPicture": "node.svg"
+  },
+  {
+    "skillName": "VS Code",
+    "skillPicture": "vscode.svg"
+  },
+  {
+    "skillName": "Visual Studio",
+    "skillPicture": "visual-studio.svg"
+  },
+  {
+    "skillName": "Termux",
+    "skillPicture": "termux.svg"
+  },
+  {
+    "skillName": "Android",
+    "skillPicture": "android.svg"
+  },
+  {
+    "skillName": "Figma",
+    "skillPicture": "figma.svg"
+  },
+  {
+    "skillName": "Canva",
+    "skillPicture": "canva.svg"
+  },
+  {
+    "skillName": "Chrome DevTools",
+    "skillPicture": "chrome.svg"
+  },
+  {
+    "skillName": "NPM",
+    "skillPicture": "npm.svg"
+  },
+  {
+    "skillName": "Magisk",
+    "skillPicture": "magisk.svg"
+  },
+  {
+    "skillName": "KernelSU",
+    "skillPicture": "kernelsu.svg"
+  }
+]

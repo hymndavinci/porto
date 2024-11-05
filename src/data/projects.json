@@ -1,0 +1,28 @@
+[
+  {
+    "id": "okm",
+    "carouselImages": ["loginpage.webp"],
+    "projectRepo": "https://github.com/hymndavinci/login-page.git",
+    "projectTitle": "Login Page",
+    "projectSlogan": "The Exclusive Template",
+    "projectDescription": "The Login Page template provides a clean, user-friendly interface designed for quick and secure user authentication. With fields for entering email or username and password, along with a prominent login button, it ensures a smooth login experience.",
+    "projectTechnologies": [
+      {
+        "name": "HTML",
+        "icon": "html"
+      },
+      {
+        "name": "CSS",
+        "icon": "css"
+      },
+      {
+        "name": "Javascript",
+        "icon": "javascript"
+      },
+      {
+        "name": "Bootstrap 5",
+        "icon": "bootstrap"
+      }
+    ]
+  }
+]

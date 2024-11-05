@@ -1,0 +1,18 @@
+[
+  {
+    "id": "universitas-muhammadiyah-purwokerto",
+    "educationPicture": "ump.webp",
+    "educationTitle": "Software and Web development",
+    "educationType": "Bachelor's Degree",
+    "educationTime": "June 2023 - Present",
+    "educationCompany": "University Muhammadiyah Purwokerto"
+  },
+  {
+    "id": "smk-negeri-1-kaligondang",
+    "educationPicture": "kaligondang.webp",
+    "educationTitle": "UI / UX",
+    "educationType": "Vocational School",
+    "educationTime": "June 2019 - August 2022",
+    "educationCompany": "SMKN 1 Kaligondang"
+  }
+]
